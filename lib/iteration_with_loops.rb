@@ -1,5 +1,5 @@
 def join_nested_strings(src)
-words = []
+src = []
 mixed_data_1.each do |items|
   items.each do |item|
     if item.is_a?(String)
