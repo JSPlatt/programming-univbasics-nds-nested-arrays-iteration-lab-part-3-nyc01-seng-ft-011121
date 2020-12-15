@@ -5,7 +5,7 @@ while row_index < src.count do
   element_index = 0
   string_elements = ""
   while element_index < scr[row_index].count do
-    if scr
+    if scr[row_index]
 
 
 end
