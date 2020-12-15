@@ -4,7 +4,7 @@ row_index = 0
 while row_index < src.count do
   element_index = 0
   string_elements = ""
-  while element_index < scr.
+  while element_index < scr[row_index]
 
 
 end
