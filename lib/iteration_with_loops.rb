@@ -1,5 +1,7 @@
 def join_nested_strings(src)
 array = []
+row_index = 0
+
 
 
 end
