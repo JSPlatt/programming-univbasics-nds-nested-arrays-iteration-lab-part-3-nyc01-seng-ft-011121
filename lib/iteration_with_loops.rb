@@ -1,7 +1,12 @@
 def join_nested_strings(src)
-sentence = mixed_data_1.flat_map do |items|
-  items.select {|item| item.is_a?(String)}
-end.join("")
-sentence
+words = []
+mixed_data_1.each do |items|
+  items.each do |item|
+    if item.is_a?(String)
+      words << item
+    end
+  end
+end
+return words.join("")
   # src will be an Array of Arrays of Strings and Integers
   # Combine all Strings present in the AoA into a single value and return it
