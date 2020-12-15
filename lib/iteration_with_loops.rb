@@ -6,7 +6,7 @@ while row_index < src.count do
   string_elements = ""
   while element_index < scr[row_index].count do
     if scr[row_index][element_index]
-      
+      array
 
 
 end
